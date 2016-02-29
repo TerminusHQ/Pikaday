@@ -307,9 +307,9 @@
             arr.push('is-endrange');
         }
         return '<td data-day="' + opts.day + '" class="' + arr.join(' ') + '">' +
-                 '<button class="pika-button" type="button"> ' +
+                 '<div class="pika-button" type="button"> ' +
                     '<span class="pika-day" data-pika-year="' + opts.year + '" data-pika-month="' + opts.month + '" data-pika-day="' + opts.day + '">' + opts.day + '</span>' +
-                 '</button>' +
+                 '</div>' +
                '</td>';
     },
 
